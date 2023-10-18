@@ -18,7 +18,6 @@
 
 <div class="preloader yellow-bg"><div class="spinner"></div></div>
 
-
 <div class="modal" id="modalwip">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -29,9 +28,13 @@
           <h3>Hi, we are updating our website.</h3>
           <p>Subscribe for updates</p>
           <form class="sec-pad-little" action="https://formsubmit.co/onizuka.zx@gmail.com" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input class="input-modal" type="email" name="email" id="email">
-            <button type="submit" class="btn btn-primary submit" data-dismiss="modal">Submit</button>
+            <div class="row">
+                <input type="hidden" name="_captcha" value="false">
+                <input class="input-modal" type="email" name="email" id="email">
+            </div>
+            <div class="row">
+                <button type="submit" class="btn btn-primary submit" data-dismiss="modal" data-toggle="modal" data-target="#miModal">Submit</button>
+            </div>
           </form>
         </div>
       </div>
