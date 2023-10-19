@@ -253,7 +253,7 @@
     .cta-style-one a.cta-btn.style-two {margin: 0;}
     .cta-style-four .cta-btn,
     .banner-style-five a.cta-btn,
-    .cta-style-two .cta-style-two-content .cta-btn {display: block;}
+    /* .cta-style-two .cta-style-two-content .cta-btn {display: block;} */
     .cta-style-four .cta-btn.style-two,
     .banner-style-five a.cta-btn.style-two,
     .cta-style-two .cta-style-two-content .cta-btn.style-two {margin-left: 0;margin-top: 20px;}
